@@ -1,0 +1,34 @@
+%Autor: Prof. Me. Phyllipe Lima
+%Contato: phyllipe_slf@yahoo.com.br
+%Modelo para escrita de artigos científicos para o curso de Pós-Graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing do INATEL - Instituto Nacional de Telecomunicações. Este template LaTeX é uma adaptação do modelo doc desenvolvido pelos professores Carlos Ynoguti e Dayan Guimarães
+\documentclass[11pt,twocolumn]{article} 
+%para Español {BEGIN}
+ 
+% La sigientes lineas son para podel escribir en español usando el
+%teclaso y poder usar el corrector de idioma automático. 
+%OJOJOJOJOJOJOJOJOJOJOJOJOJO:  
+%También es necesario el spanish como opción de la clase.
+%OJOJOJOJOJOJOJOJOJOJOJOJOJO:  
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\spanishdecimal{.}
+\usepackage[utf8]{inputenc}
+%para Español {END}
+
+\input{configuracoes/includes.tex}
+
+\begin{document}
+
+\input{configuracoes/config.tex}
+\title{\Huge \bf Combatiendo el Calentamiento Global}
+
+\author{\large 
+Castillo Espinoza Aarón Sebastián}
+\maketitle
+
+\input{secoes/Introduccion.tex}
+\input{secoes/PuntosImportantes.tex}
+\input{secoes/Conclusion.tex}
+
+\end{document}
+

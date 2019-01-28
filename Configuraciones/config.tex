@@ -1,0 +1,21 @@
+%Ajustes na figura
+\captionsetup[figure]{labelformat={default},labelsep=period,font=footnotesize, name=\footnotesize{Fig.},justification=raggedright,singlelinecheck=false}
+%\pagenumbering{gobble}
+
+%Ajustes na tabela
+\captionsetup[table]{labelformat={default},labelsep=newline,font={sc,footnotesize},name=\footnotesize{TABELA}}
+\renewcommand{\headrulewidth}{0pt}
+
+\pagestyle{fancyplain}{%
+    \fancyhf{} % limpa os campos
+    \chead{ \textcolor{black!50}{\textbf{
+    UNIVERSIDAD DE SONORA\\ 
+    Licenciatura en Física para la clase de 
+    Física Computacional \\
+    27 de enero de 2019\\
+    Grupo 3
+    }}}
+    \cfoot{\thepage}
+}
+
+\AtBeginEnvironment{tabular}{\footnotesize}
